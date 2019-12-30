@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'neomorphism-ui'
+import NeoCard from 'neomorphism-ui'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <NeoCard text='Modern React component module' />
       </div>
     )
   }
