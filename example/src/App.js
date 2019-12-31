@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import NeoCard from 'neomorphism-ui'
+import { NeuCard, NeuReaction } from 'neomorphism-ui'
 
 export default class App extends Component {
   render () {
@@ -8,7 +8,10 @@ export default class App extends Component {
       <div>
         <br />
         <br />
-        <NeoCard text='Modern React component module' />
+        <NeuReaction />
+        <br />
+        <br />
+        <NeuCard text='Modern React component module' />
       </div>
     )
   }
