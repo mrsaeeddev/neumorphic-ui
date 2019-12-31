@@ -1,10 +1,10 @@
 {
-  "name": "neomorphic-ui",
+  "name": "neumorphic-ui",
   "version": "1.0.0",
-  "description": "A library for components based on the concept of neomorphism",
+  "description": "A library for components based on the concept of neumorphism",
   "author": "dev-saeed",
   "license": "MIT",
-  "repository": "dev-saeed/neomorphic-ui",
+  "repository": "dev-saeed/neumorphic-ui",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
