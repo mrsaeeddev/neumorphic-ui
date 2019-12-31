@@ -1,6 +1,6 @@
 {
-  "name": "neomorphism-ui-example",
-  "homepage": "https://dev-saeed.github.io/neomorphism-ui",
+  "name": "neomorphic-ui-example",
+  "homepage": "https://dev-saeed.github.io/neomorphic-ui",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "neomorphism-ui": "link:.."
+    "neomorphic-ui": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

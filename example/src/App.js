@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { NeuCard, NeuReaction } from 'neomorphism-ui'
+import { NeuCard, NeuReaction } from 'neomorphic-ui'
 
 export default class App extends Component {
   render () {
