@@ -1,1 +1,1 @@
-export { NeuCard, NeuReaction } from './components/';
+export { NeuCard, NeuInput, NeuReaction } from './components/';
