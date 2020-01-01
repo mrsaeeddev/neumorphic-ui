@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-var neuCardStyles = {
+var neuInputStyles = {
     borderRadius: '10px',
     outline:'0',
     width: '100%',
@@ -25,7 +25,7 @@ export class NeuInput extends Component {
 
     return (
         <div >
-        <input style={neuCardStyles} />
+        <input style={neuInputStyles} />
       </div>
     )
   }
