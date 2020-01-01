@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { NeuH1, NeuText, NeuCard, NeuInput, NeuButton, NeuReaction } from 'neumorphic-ui'
+import { NeuH1, NeuText, NeuCard, NeuInput, NeuButton, NeuLoader, NeuReaction, NeuProgressBar } from 'neumorphic-ui'
 
 export default class App extends Component {
   render () {
@@ -21,6 +21,9 @@ export default class App extends Component {
         <NeuButton />
         <br />
         <br />
+        <NeuLoader />
+        <br />
+        <NeuProgressBar />
         <br />
         <NeuInput />
         <br />
