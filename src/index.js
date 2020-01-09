@@ -1,1 +1,1 @@
-export { NeuH1, NeuText, NeuCard, NeuInput, NeuButton, NeuReaction } from './components/';
+export { NeuH1, NeuText, NeuCard, NeuInput, NeuButton, NeuLoader, NeuReaction, NeuProgressBar } from './components/';
