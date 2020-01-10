@@ -9,11 +9,12 @@ export class NeuHeading extends Component {
 
   render() {
     const {
-      fontSize, fontWeight
+      text, fontSize, fontWeight
     } = this.props
 
     return (
     <div style={{
+      display: 'block',
       borderRadius: '7px solid white',
       width: '100%',
       height: '20px',
@@ -21,8 +22,8 @@ export class NeuHeading extends Component {
       fontSize: fontSize||'100px',
       fontWeight: fontWeight||'900',
       color: '#E0E5EC',
-      textShadow: '4px 4px 4px rgb(163,177,198,0.6)'
-  }} >NeuHeading Component</div>
+      textShadow: '3px 3px 9px rgb(163,177,198,0.6)'
+    }} >{text}</div>
     )
   }
 }
