@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { NeuH1, NeuText, NeuCard, NeuInput, NeuButton, NeuLoader, NeuReaction, NeuProgressBar } from 'neumorphic-ui'
+import { NeuHeading, NeuText, NeuCard, NeuInput, NeuButton, NeuLoader, NeuReaction, NeuProgressBar } from 'neumorphic-ui'
 
 export default class App extends Component {
   render () {
@@ -8,7 +8,7 @@ export default class App extends Component {
       <div style={{width:'60%', textAlign:'center', margin: '0px auto'}}>
         <br />
         <br />
-        <div style={{ textAlign:'center'}}><NeuH1 /></div>
+        <div style={{ textAlign:'center'}}><NeuHeading fontSize="46px" fontWeight="200"/></div>
         <br />
         <br />
         <br />
@@ -23,11 +23,11 @@ export default class App extends Component {
         <br />
         <NeuLoader />
         <br />
-        <NeuProgressBar />
+        <NeuProgressBar progress="80%" />
         <br />
         <NeuInput />
         <br />
-        <NeuCard text='Modern React component module' />
+        <NeuCard width="100%" />
       </div>
     )
   }

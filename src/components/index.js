@@ -5,10 +5,10 @@ import { NeuButton } from './NeuButton';
 import { NeuInput } from './NeuInput';
 import { NeuCard } from './NeuCard';
 import { NeuText } from './NeuText';
-import { NeuH1 } from './NeuH1';
+import { NeuHeading } from './NeuHeading';
 
 export {
-    NeuH1,
+    NeuHeading,
     NeuText,
     NeuCard,
     NeuInput,
