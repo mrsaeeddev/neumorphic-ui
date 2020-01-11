@@ -12,6 +12,8 @@ npm install --save neumorphic-ui
 
 ## Usage
 
+### Components
+
 ```jsx
 import React, { Component } from 'react'
 

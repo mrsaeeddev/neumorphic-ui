@@ -14,11 +14,11 @@ export class NeuHeading extends Component {
 
     return (
     <div style={{
-      display: 'block',
       borderRadius: '7px solid white',
       width: '100%',
-      height: '20px',
-      padding: '5px',
+      display: 'inline-block',
+      marginBottom:fontSize,
+      wordWrap:'break-word',
       fontSize: fontSize||'100px',
       fontWeight: fontWeight||'900',
       color: '#E0E5EC',
