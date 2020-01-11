@@ -19,12 +19,12 @@ export class NeuInput extends Component {
 
   render() {
     const {
-      text
+      placeholder, value, defaultValue, onChange
     } = this.props
 
     return (
         <div >
-        <input style={neuInputStyles} />
+        <input style={neuInputStyles} placeholder={placeholder||""} value={value} onChange={onChange} defaultValue={defaultValue}/>
       </div>
     )
   }
