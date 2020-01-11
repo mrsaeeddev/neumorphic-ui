@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { NeuHeading, NeuCard, NeuInput, NeuButton, NeuLoader, NeuReaction, NeuProgressBar } from 'neumorphic-ui'
+import { NeuHeading, NeuCard, NeuInput, NeuButton, NeuReaction, NeuProgressBar } from 'neumorphic-ui'
 
 export default class App extends Component {
   constructor(props){
@@ -22,8 +22,6 @@ export default class App extends Component {
         <br />
         <NeuButton text="Neumorhpic Button" />
         <br />
-        <br />
-        <NeuLoader />
         <br />
         <NeuProgressBar progress="80%" />
         <NeuInput width="96%" onChange={e => this.setState({value:e.target.value})} placeholder="Neumorphic Input" value={this.state.value} />

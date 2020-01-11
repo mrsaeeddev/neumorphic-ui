@@ -5,6 +5,7 @@ export class NeuHeading extends Component {
   static propTypes = {
     fontSize: PropTypes.string,
     fontWeight: PropTypes.string,
+    text: PropTypes.string,
   }
 
   render() {
