@@ -1,6 +1,6 @@
 # neumorphic-ui
 
-> A library for components based on the concept of neumorphism
+> A library of components based on the concept of neumorphism
 
 [![NPM](https://img.shields.io/npm/v/neumorphic-ui.svg)](https://www.npmjs.com/package/neumorphic-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

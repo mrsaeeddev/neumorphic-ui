@@ -1,13 +1,13 @@
 {
   "name": "neumorphic-ui",
-  "version": "1.0.2",
-  "description": "A library for components based on the concept of neumorphism",
+  "version": "1.0.3",
+  "description": "A library of components based on the concept of neumorphism",
   "author": "dev-saeed",
   "license": "MIT",
   "repository": "dev-saeed/neumorphic-ui",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "keywords":[ "reactjs","react","neumorphism","neumorphic-ui"],
+  "keywords":[ "reactjs","react","neumorphism","neumorphic-ui","skeuomorphism","web"],
   "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
