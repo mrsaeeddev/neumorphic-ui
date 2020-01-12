@@ -20,7 +20,8 @@ export class NeuReaction extends Component {
 
   render() {
     const {
-      size
+      size,
+      children
     } = this.props
 
     return (
@@ -41,6 +42,7 @@ export class NeuReaction extends Component {
       outline:'0px',
       backgroundColor: '#E0E5EC',
       boxShadow: '9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5)'}}>
+      {children}
       </button>
     )
   }

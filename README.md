@@ -133,6 +133,9 @@ NeuReaction is a component which you can use as a reaction button.
 ###### Props
 This component accepts 1 prop:
 1. ```size``` - size of reaction button (in px)
+2. ```children``` - This represents children of NeuReaction component. You do not need
+to pass this prop explicilty to ```NeuReaction``` component. Instead just wrap
+child components in ```NeuReaction``` opening and closing tags.
 
 ```jsx
 import { NeuReaction } from 'neumorphic-ui';
@@ -140,7 +143,7 @@ import { NeuReaction } from 'neumorphic-ui';
 class Example extends Component {
   render () {
     return (
-      <NeuReaction size="15px" />
+      <NeuReaction ><img src={like} width="30px" height="30px"></NeuReaction>
     )
   }
 }
