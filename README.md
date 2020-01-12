@@ -150,10 +150,10 @@ class Example extends Component {
 ```
 
 ## Feedback
-Suggestions and contributions are welcome. If you can by any means improve the library, just reach out to me at anyone of my social media platforms. Also, ou can email me at : saeed_dev@yahoo.com
+Suggestions and contributions are welcome. If you can by any means improve the library, just reach out to me at anyone of my social media platforms. Also, you can email me at : saeed_dev@yahoo.com
 
 ## Connect with me 
-(My personal website)[https://saeeddev.netlify.com/]
+[My personal website](https://saeeddev.netlify.com/)
 
 ## License
 
