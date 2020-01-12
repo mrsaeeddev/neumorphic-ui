@@ -131,7 +131,7 @@ class Example extends Component {
 NeuReaction is a component which you can use as a reaction button.
 
 ###### Props
-This component accepts 1 prop:
+This component accepts 2 props:
 1. ```size``` - size of reaction button (in px)
 2. ```children``` - This represents children of NeuReaction component. You do not need
 to pass this prop explicilty to ```NeuReaction``` component. Instead just wrap
@@ -148,6 +148,12 @@ class Example extends Component {
   }
 }
 ```
+
+## Feedback
+Suggestions and contributions are welcome. If you can by any means improve the library, just reach out to me at anyone of my social media platforms. Also, ou can email me at : saeed_dev@yahoo.com
+
+## Connect with me 
+(My personal website)[https://saeeddev.netlify.com/]
 
 ## License
 
