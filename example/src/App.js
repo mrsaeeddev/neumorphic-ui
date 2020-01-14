@@ -6,8 +6,21 @@ export default class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      value: ""
+      value: "",
+      hovered: false,
+      clicked: false
     }
+  }
+
+  onClick = () => {
+  this.setState({ hovered:false, clicked: !this.state.clicked });  }
+
+  mouseOver = () => {
+    !this.state.clicked && this.setState({hovered:true})
+  }
+
+  mouseOut = () => {
+    this.setState({hovered: false})
   }
 
   render () {
@@ -20,7 +33,7 @@ export default class App extends Component {
         <br />
         <br />
         <br />
-        <NeuButton text="Neumorhpic Button" />
+        <NeuButton hovered={this.state.hovered} clicked={this.state.clicked} onClick={this.onClick} mouseOver={this.mouseOver} mouseOut={this.mouseOut} text="Neumorhpic Button" />
         <br />
         <br />
         <NeuProgressBar progress="80%" />

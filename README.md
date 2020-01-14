@@ -41,14 +41,38 @@ NeuButton is a component which is equivalent to Button component in other librar
 ###### Props
 This component accepts 1 prop:
 1. ```text``` - text which you want as text in button
+2. ```hovered``` - this prop accepts a boolean value
+3. ```clicked``` - this prop accepts a boolean value
+4. ```mouseOver``` - this prop accepts a function
+5. ```mouseOut``` - this prop accepts a function
+6. ```onClick``` - this prop also accepts a function
 
 ```jsx
 import { NeuButton } from 'neumorphic-ui';
 
 class Example extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      hovered: false,
+      clicked: false
+    }
+  }
+
+  onClick = () => {
+  this.setState({ hovered:false, clicked: !this.state.clicked });  }
+
+  mouseOver = () => {
+    !this.state.clicked && this.setState({hovered:true})
+  }
+
+  mouseOut = () => {
+    this.setState({hovered: false})
+  }
+
   render () {
     return (
-      <NeuButton text="Neumorphic UI" />
+  <NeuButton hovered={this.state.hovered} clicked={this.state.clicked} onClick={this.onClick} mouseOver={this.mouseOver} mouseOut={this.mouseOut} text="Neumorhpic Button" />
     )
   }
 }
